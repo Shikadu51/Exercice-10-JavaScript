@@ -116,7 +116,7 @@ $(document).ready(function(){
             code[2] === cell3Color &&
             code[3] === cell4Color){
             hasWon = true;
-            alert("Congratulations, you have won!\nThe code will now be displayed.");
+            alert("Félicitation! Tu as Gagné!\nFermer cette page pour voir que vous avez trouvez la bonne combinaison.");
             //set the colors of the code box
             $("#secretColor1").css("background-color", code[0]);
             $("#secretColor2").css("background-color", code[1]);
